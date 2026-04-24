@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Yiheng Zhu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fff;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            font-size: 2.2em;
+            color: #111;
+        }
+
+        .contact-info {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .contact-info a {
+            color: #1F4E79;
+            text-decoration: none;
+        }
+
+        hr.top-divider {
+            border: 0;
+            border-top: 2px solid #eee;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #1F4E79;
+            margin-bottom: 5px;
+            margin-top: 25px;
+            font-size: 1.3em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-divider {
+            border: 0;
+            border-top: 1.5px solid #1F4E79;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .job-title {
+            font-style: italic;
+            font-weight: normal;
+            color: #444;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .skills-list li {
+            margin-bottom: 6px;
+        }
+
+        strong {
+            color: #000;
+        }
+
+        @media print {
+            body {
+                margin: 20px;
+                font-size: 11pt;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Yiheng Zhu</h1>
+        <div class="contact-info">
+            Shanghai, China | (+86) 13913191191 | 
+            <a href="mailto:m13913191191@163.com">m13913191191@163.com</a>
+        </div>
+    </header>
+
+    <hr class="top-divider">
+
+    <h3>Professional Summary</h3>
+    <hr class="section-divider">
+    <p>
+        Results-driven <strong>Machine Learning Engineer</strong> and <strong>Software Engineer</strong> with a focus on high-performance systems C++ development. Proven track record at <strong>Apple</strong> and <strong>Huawei</strong> in building production-grade ML pipelines and compiler-level optimizations. Expert in quantitative framework architecture and a disciplined <strong>options trader</strong> with a deep theoretical understanding of Greeks and volatility, maintaining a consistent PnL record with strict drawdown management.
+    </p>
+
+    <h3>Technical Skills</h3>
+    <hr class="section-divider">
+    <ul class="skills-list">
+        <li><strong>Languages:</strong> C++ (Expert), Python, TypeScript, C, C#, Swift, R, SQL</li>
+        <li><strong>Machine Learning & AI:</strong> Reinforcement Learning, NLP, Predictive Modeling, Model Monitoring</li>
+        <li><strong>Systems & Tools:</strong> LLVM/GCC, Linux Kernel, Tableau, Git, Scikit-learn, PyTorch</li>
+        <li><strong>Quantitative Finance:</strong> Option Pricing Theory (Black-Scholes, Greeks), Backtesting Frameworks</li>
+        <li><strong>Core Philosophy:</strong> Obsessive focus on code quality, memory efficiency, and rigorous testing standards</li>
+    </ul>
+
+    <h3>Professional Experience</h3>
+    <hr class="section-divider">
+
+    <div class="experience-header">
+        <span>Apple Inc. (Contractor)</span>
+        <span>Nov 2024 – Present</span>
+    </div>
+    <div class="job-title">Machine Learning Integration Engineer</div>
+    <ul>
+        <li><strong>AI for RF Optimization:</strong> Architected an end-to-end predictive pipeline for RF station calibration; achieved <strong>99.9% accuracy</strong> for Bluetooth and <strong>95% for Wi-Fi</strong> (gap &lt; 0.2 dBm).</li>
+        <li><strong>Automated Engineering:</strong> Developed automated data cleaning and feature extraction modules to minimize station test time and operational overhead.</li>
+        <li><strong>Performance Monitoring:</strong> Built a real-time assessment platform with Insight Labs, utilizing Tableau for executive-level KPI visualization and strategy alignment.</li>
+    </ul>
+
+    <div class="experience-header">
+        <span>Huawei Technologies</span>
+        <span>Dec 2021 – Jun 2024</span>
+    </div>
+    <div class="job-title">Software Engineer</div>
+    <ul>
+        <li><strong>LLVM Compiler Super-optimizer:</strong> Developed a Reinforcement Learning-based optimizer for the LLVM backend. Wrote <strong>4,000+ lines of high-performance C++</strong> to boost assembly code efficiency by 3%. Managed the full architectural transition from GCC to LLVM.</li>
+        <li><strong>Global Telecom Strategy (Asia Pacific):</strong> Deployed the "One Customer One Strategy" in Bangkok. Utilized ML to identify underperforming hardware for a major Cambodian operator, directly securing purchase orders for antenna infrastructure upgrades.</li>
+    </ul>
+
+    <h3>Selected Projects</h3>
+    <hr class="section-divider">
+
+    <div class="experience-header">
+        <span>Quantitative Trading & Execution Framework</span>
+        <span>C++ / Python</span>
+    </div>
+    <ul>
+        <li>Architected a high-performance framework focusing on <strong>strict code management</strong> and low-latency execution.</li>
+        <li>Engineered a robust backtesting engine, real-time price API integration, and an automated Order Management System (OMS).</li>
+        <li>Prioritized code efficiency and quality to ensure stability during high-volatility market events.</li>
+    </ul>
+
+    <div class="experience-header">
+        <span>NLP Sentiment Analysis (Rotten Tomatoes)</span>
+        <span>Python</span>
+    </div>
+    <ul>
+        <li>Led development of a multi-class classification structure using word embeddings and softmax layers.</li>
+        <li>Achieved <strong>67% accuracy</strong> in sentiment prediction using unsupervised learning techniques.</li>
+    </ul>
+
+    <h3>Education</h3>
+    <hr class="section-divider">
+
+    <div class="experience-header">
+        <span>University of Edinburgh</span>
+        <span>2021</span>
+    </div>
+    <div class="job-title">MSc in Statistics with Data Science</div>
+    <ul>
+        <li>Relevant Coursework: Machine Learning, RNA Sequence Prediction, Statistical Programming.</li>
+    </ul>
+
+    <div class="experience-header">
+        <span>University of Liverpool</span>
+        <span>2020</span>
+    </div>
+    <div class="job-title">BSc in Mathematics</div>
+    <ul>
+        <li>Achievement: <strong>Merit Prize</strong> in the American Mathematics Competition (High-tier problem-solving).</li>
+    </ul>
+
+    <h3>Personal Interests & Expertise</h3>
+    <hr class="section-divider">
+    <ul>
+        <li><strong>Options Trading:</strong> Deep theoretical expertise in volatility surfaces and the Greeks. Actively manages real-money portfolios with a focus on consistent PnL and low maximum drawdown.</li>
+        <li><strong>Low-Latency Systems:</strong> Passionate about C++ template metaprogramming and pushing the boundaries of compiler optimization.</li>
+    </ul>
+
+</body>
+</html>
