@@ -15,7 +15,7 @@ Detail-oriented Machine Learning Engineer and Data Scientist with over 3 years o
 ### **Professional Experience**
 
 **Apple Inc. (Contractor)** | *Machine Learning Integration Engineer* | **Nov 2024 – Present**
-*   **Arya ML Project:** Developed an end-to-end predictive pipeline for RF station calibration, achieving 99.9% accuracy for Bluetooth and 95% for Wi-Fi (gap < 0.2 dBm).
+*   **AI for RF:** Developed an end-to-end predictive pipeline for RF station calibration, achieving 99.9% accuracy for Bluetooth and 95% for Wi-Fi (gap < 0.2 dBm).
 *   Automated data cleaning, feature extraction, and model training to predict test items, significantly reducing station test time and operational costs.
 *   Collaborated with Insight Labs to build a performance monitoring platform for continuous model assessment and real-time enhancement.
 *   Visualized complex data insights using Tableau to facilitate executive decision-making.
